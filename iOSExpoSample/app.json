@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "AdWhaleiOSExpoSample",
+    "slug": "AdWhaleiOSExpoSample",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "experimental": {
+      "newArchitecture": false
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.adwhale.expo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.adwhale.expo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

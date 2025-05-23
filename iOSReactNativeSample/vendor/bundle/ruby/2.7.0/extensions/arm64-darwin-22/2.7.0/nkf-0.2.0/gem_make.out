@@ -1,0 +1,16 @@
+current directory: /Users/fsn/Documents/React-Native/iOS_RN/iOSReactNativeSample/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+/Users/fsn/.rbenv/versions/2.7.5/bin/ruby -I /Users/fsn/.rbenv/versions/2.7.5/lib/ruby/2.7.0 -r ./siteconf20250520-98342-1yeeqqi.rb extconf.rb
+creating Makefile
+
+current directory: /Users/fsn/Documents/React-Native/iOS_RN/iOSReactNativeSample/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" clean
+
+current directory: /Users/fsn/Documents/React-Native/iOS_RN/iOSReactNativeSample/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR="
+compiling nkf.c
+linking shared-object nkf.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/fsn/Documents/React-Native/iOS_RN/iOSReactNativeSample/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" install
+/opt/homebrew/bin/ginstall -c -m 0755 nkf.bundle ./.gem.20250520-98342-qyq8bq

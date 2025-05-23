@@ -1,0 +1,25 @@
+current directory: /Users/fsn/Documents/React-Native/iOS_RN/iOSReactNativeSample/vendor/bundle/ruby/2.7.0/gems/json-2.12.0/ext/json/ext/parser
+/Users/fsn/.rbenv/versions/2.7.5/bin/ruby -I /Users/fsn/.rbenv/versions/2.7.5/lib/ruby/2.7.0 -r ./siteconf20250520-98342-uk4rw3.rb extconf.rb
+checking for rb_enc_interned_str() in ruby.h... no
+checking for rb_hash_new_capa() in ruby.h... no
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for strnlen() in string.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/fsn/Documents/React-Native/iOS_RN/iOSReactNativeSample/vendor/bundle/ruby/2.7.0/gems/json-2.12.0/ext/json/ext/parser
+make "DESTDIR=" clean
+
+current directory: /Users/fsn/Documents/React-Native/iOS_RN/iOSReactNativeSample/vendor/bundle/ruby/2.7.0/gems/json-2.12.0/ext/json/ext/parser
+make "DESTDIR="
+compiling parser.c
+parser.c:1127:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+ 1127 | }
+      | ^
+1 warning generated.
+linking shared-object json/ext/parser.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/fsn/Documents/React-Native/iOS_RN/iOSReactNativeSample/vendor/bundle/ruby/2.7.0/gems/json-2.12.0/ext/json/ext/parser
+make "DESTDIR=" install
+/opt/homebrew/bin/ginstall -c -m 0755 parser.bundle ./.gem.20250520-98342-115l2yv/json/ext
